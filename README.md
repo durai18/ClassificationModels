@@ -42,34 +42,3 @@ Each model was evaluated using Accuracy, AUC Score, Precision, Recall, F1 Score,
 | Random Forest (Ensemble) | Strong improvement over single models, good accuracy and AUC.                                     |
 | XGBoost (Ensemble)       | Best overall performance, highest accuracy, AUC, and MCC. 
 
-## Setup and Installation
-
-To run this project locally, follow these steps:
-
-1.  **Clone the repository (if applicable) or download the project files.**
-
-2.  **Create a virtual environment (recommended):**
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
-3.  **Install the required Python packages:**
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-4.  **Ensure models and scaler are available:**
-    The trained models and the StandardScaler should be saved in a directory named `model/` in the project root.
-    If you are running the notebook, these files will be generated automatically by executing the relevant cells.
-
-## Running the Streamlit Application
-
-Once the setup is complete, you can run the Streamlit application:
-
-```bash
-streamlit run app.py
-```
-
-This command will open the application in your web browser, where you can input wine properties and get quality predictions.
-
