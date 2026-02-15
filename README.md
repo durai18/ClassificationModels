@@ -63,9 +63,6 @@ streamlit run app.py
 
 This command will open the application in your web browser, where you can input wine properties and get quality predictions.
 
-## Deployment
-
-This application can be deployed to various cloud platforms that support Streamlit (e.g., Streamlit Cloud, Heroku, AWS).
 
 **General Deployment Steps:**
 
