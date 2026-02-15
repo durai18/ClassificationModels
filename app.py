@@ -5,7 +5,8 @@ import pandas as pd
 st.title("Wine Quality Classification")
 
 # Load trained model
-with open("model/trained_model.pkl", "rb") as f:
+#with open("model/trained_model.pkl", "rb") as f:
+with open("model/knn.pkl", "rb") as f:
     model = pickle.load(f)
 
 # User input
@@ -20,3 +21,4 @@ if st.button("Predict Quality"):
                             columns=["fixed acidity", "volatile acidity", "citric acid", "residual sugar", "alcohol"])
     prediction = model.predict(features)
     st.success(f"Predicted Wine Quality: {prediction[0]}")
+
