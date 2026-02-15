@@ -32,6 +32,16 @@ Each model was evaluated using Accuracy, AUC Score, Precision, Recall, F1 Score,
 | Random Forest        | 0.6594     | 0.8458      | 0.6309      | 0.6594   | 0.6438     | 0.4561      |
 | XGBoost              | 0.7062     | 0.8526      | 0.6759      | 0.7062   | 0.6901     | 0.533       |
 
+### Qualitative Observations on Model Performance
+| Model Name               | Observation about Model Performance                                                               |
+|:-------------------------|:--------------------------------------------------------------------------------------------------|
+| Logistic Regression      | Moderate performance across metrics; good balance but not top tier.                               |
+| Decision Tree            | Similar to Logistic Regression in accuracy, but lower AUC, suggesting weaker probability ranking. |
+| K-Nearest Neighbors      | Lower accuracy and F1, indicating less effective classification.                                  |
+| Gaussian Naive Bayes     | Moderate performance, slightly better precision than recall.                                      |
+| Random Forest (Ensemble) | Strong improvement over single models, good accuracy and AUC.                                     |
+| XGBoost (Ensemble)       | Best overall performance, highest accuracy, AUC, and MCC. 
+
 ## Setup and Installation
 
 To run this project locally, follow these steps:
