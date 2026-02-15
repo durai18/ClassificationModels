@@ -73,10 +73,3 @@ streamlit run app.py
 
 This command will open the application in your web browser, where you can input wine properties and get quality predictions.
 
-
-**General Deployment Steps:**
-
-1.  **Host your project files** (including `app.py`, `requirements.txt`, and the `model/` directory) on a platform like GitHub.
-2.  **Connect your repository** to a deployment service (e.g., Streamlit Cloud).
-3.  **Specify `app.py`** as the main application file.
-4.  The service will automatically install dependencies from `requirements.txt` and run your app.
